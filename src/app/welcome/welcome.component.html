@@ -1,0 +1,17 @@
+<div class="container bg-light py-5">
+    <h1 class="display-5 fw-bold text-center">Welocme to Quiz Hub</h1>
+    
+    <h4>Rules:</h4>
+    <ol>
+        <li>Enter your name to start Quiz.</li>
+        <li>There are total three question.</li>
+        <li>Each question carries 10 marks.</li>
+       
+    </ol>
+    
+    <div class="name col-md-4 my-3">
+        <label for="">Enter your name:</label>
+        <input #name type="text" class="form-control">
+    </div>
+    <button class="btn " routerLink="/question" (click)="startQuiz()">Start the Quiz!!</button>
+</div>
